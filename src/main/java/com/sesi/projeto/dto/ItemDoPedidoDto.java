@@ -1,5 +1,5 @@
 package com.sesi.projeto.dto;
 
-public record ItemDoPedidoDto() {
+public record ItemDoPedidoDto(String nome) {
 
 }

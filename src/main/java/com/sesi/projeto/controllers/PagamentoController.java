@@ -1,4 +1,4 @@
-package com.sesi.projeto.controllers;
+/* package com.sesi.projeto.controllers;
 
 import java.util.List;
 
@@ -67,3 +67,4 @@ public class PagamentoController {
         return ResponseEntity.noContent().build();
     }
 }
+*/

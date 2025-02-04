@@ -1,11 +1,15 @@
 package com.sesi.projeto.entities;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.sesi.projeto.dto.UsuarioDto;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
@@ -28,6 +32,9 @@ public class Usuario {
 		this.senha = usuario.senha();
 		this.roles = usuario.roles();
 	}
+	
+	@OneToMany(mappedBy= "cliente")
+	private List<Pedido> pedidos = new ArrayList<Pedido>();
 	
 	public Usuario(Long id, String nome, String email, String telefone, String senha, String roles) {
 		super();
