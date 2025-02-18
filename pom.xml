@@ -8,10 +8,17 @@
 		<version>3.4.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+<<<<<<< HEAD
 	<groupId>com.tarefa</groupId>
 	<artifactId>fiama</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>fiama</name>
+=======
+	<groupId>com.sesi</groupId>
+	<artifactId>projeto</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>projeto</name>
+>>>>>>> 35441f2d7b889f1ae59255dda86ad435c8556361
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -44,6 +51,15 @@
 		</dependency>
 
 		<dependency>
+<<<<<<< HEAD
+=======
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+>>>>>>> 35441f2d7b889f1ae59255dda86ad435c8556361
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
